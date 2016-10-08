@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45040FF1DA89F6F00A066FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45040FE1DA89F6F00A066FB /* main.m */; };
+		F45041021DA89F6F00A066FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041011DA89F6F00A066FB /* AppDelegate.m */; };
+		F45041051DA89F6F00A066FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041041DA89F6F00A066FB /* ViewController.m */; };
+		F45041081DA89F6F00A066FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45041061DA89F6F00A066FB /* Main.storyboard */; };
+		F450410A1DA89F6F00A066FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45041091DA89F6F00A066FB /* Assets.xcassets */; };
+		F450410D1DA89F6F00A066FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F450410B1DA89F6F00A066FB /* LaunchScreen.storyboard */; };
+		F45041181DA89F7000A066FB /* com_wt_RefeshWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041171DA89F7000A066FB /* com_wt_RefeshWatchTests.m */; };
+		F45041231DA89F7000A066FB /* com_wt_RefeshWatchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041221DA89F7000A066FB /* com_wt_RefeshWatchUITests.m */; };
+		F45041351DA89FDA00A066FB /* RefreshRate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041321DA89FDA00A066FB /* RefreshRate.m */; };
+		F45041361DA89FDA00A066FB /* DragLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F45041341DA89FDA00A066FB /* DragLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45041141DA89F7000A066FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45040F21DA89F6F00A066FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45040F91DA89F6F00A066FB;
+			remoteInfo = com.wt.RefeshWatch;
+		};
+		F450411F1DA89F7000A066FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45040F21DA89F6F00A066FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45040F91DA89F6F00A066FB;
+			remoteInfo = com.wt.RefeshWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45040FA1DA89F6F00A066FB /* com.wt.RefeshWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.wt.RefeshWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45040FE1DA89F6F00A066FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45041001DA89F6F00A066FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F45041011DA89F6F00A066FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F45041031DA89F6F00A066FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F45041041DA89F6F00A066FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F45041071DA89F6F00A066FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45041091DA89F6F00A066FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F450410C1DA89F6F00A066FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F450410E1DA89F6F00A066FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45041131DA89F7000A066FB /* com.wt.RefeshWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.wt.RefeshWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45041171DA89F7000A066FB /* com_wt_RefeshWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_wt_RefeshWatchTests.m; sourceTree = "<group>"; };
+		F45041191DA89F7000A066FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F450411E1DA89F7000A066FB /* com.wt.RefeshWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.wt.RefeshWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45041221DA89F7000A066FB /* com_wt_RefeshWatchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_wt_RefeshWatchUITests.m; sourceTree = "<group>"; };
+		F45041241DA89F7000A066FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45041311DA89FDA00A066FB /* RefreshRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshRate.h; sourceTree = "<group>"; };
+		F45041321DA89FDA00A066FB /* RefreshRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshRate.m; sourceTree = "<group>"; };
+		F45041331DA89FDA00A066FB /* DragLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragLabel.h; sourceTree = "<group>"; };
+		F45041341DA89FDA00A066FB /* DragLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45040F71DA89F6F00A066FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45041101DA89F7000A066FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450411B1DA89F7000A066FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45040F11DA89F6F00A066FB = {
+			isa = PBXGroup;
+			children = (
+				F45040FC1DA89F6F00A066FB /* com.wt.RefeshWatch */,
+				F45041161DA89F7000A066FB /* com.wt.RefeshWatchTests */,
+				F45041211DA89F7000A066FB /* com.wt.RefeshWatchUITests */,
+				F45040FB1DA89F6F00A066FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45040FB1DA89F6F00A066FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45040FA1DA89F6F00A066FB /* com.wt.RefeshWatch.app */,
+				F45041131DA89F7000A066FB /* com.wt.RefeshWatchTests.xctest */,
+				F450411E1DA89F7000A066FB /* com.wt.RefeshWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45040FC1DA89F6F00A066FB /* com.wt.RefeshWatch */ = {
+			isa = PBXGroup;
+			children = (
+				F45041301DA89FCA00A066FB /* refeshWatch */,
+				F45041001DA89F6F00A066FB /* AppDelegate.h */,
+				F45041011DA89F6F00A066FB /* AppDelegate.m */,
+				F45041031DA89F6F00A066FB /* ViewController.h */,
+				F45041041DA89F6F00A066FB /* ViewController.m */,
+				F45041061DA89F6F00A066FB /* Main.storyboard */,
+				F45041091DA89F6F00A066FB /* Assets.xcassets */,
+				F450410B1DA89F6F00A066FB /* LaunchScreen.storyboard */,
+				F450410E1DA89F6F00A066FB /* Info.plist */,
+				F45040FD1DA89F6F00A066FB /* Supporting Files */,
+			);
+			path = com.wt.RefeshWatch;
+			sourceTree = "<group>";
+		};
+		F45040FD1DA89F6F00A066FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45040FE1DA89F6F00A066FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F45041161DA89F7000A066FB /* com.wt.RefeshWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45041171DA89F7000A066FB /* com_wt_RefeshWatchTests.m */,
+				F45041191DA89F7000A066FB /* Info.plist */,
+			);
+			path = com.wt.RefeshWatchTests;
+			sourceTree = "<group>";
+		};
+		F45041211DA89F7000A066FB /* com.wt.RefeshWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45041221DA89F7000A066FB /* com_wt_RefeshWatchUITests.m */,
+				F45041241DA89F7000A066FB /* Info.plist */,
+			);
+			path = com.wt.RefeshWatchUITests;
+			sourceTree = "<group>";
+		};
+		F45041301DA89FCA00A066FB /* refeshWatch */ = {
+			isa = PBXGroup;
+			children = (
+				F45041311DA89FDA00A066FB /* RefreshRate.h */,
+				F45041321DA89FDA00A066FB /* RefreshRate.m */,
+				F45041331DA89FDA00A066FB /* DragLabel.h */,
+				F45041341DA89FDA00A066FB /* DragLabel.m */,
+			);
+			name = refeshWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45040F91DA89F6F00A066FB /* com.wt.RefeshWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45041271DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatch" */;
+			buildPhases = (
+				F45040F61DA89F6F00A066FB /* Sources */,
+				F45040F71DA89F6F00A066FB /* Frameworks */,
+				F45040F81DA89F6F00A066FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.wt.RefeshWatch;
+			productName = com.wt.RefeshWatch;
+			productReference = F45040FA1DA89F6F00A066FB /* com.wt.RefeshWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45041121DA89F7000A066FB /* com.wt.RefeshWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F450412A1DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatchTests" */;
+			buildPhases = (
+				F450410F1DA89F7000A066FB /* Sources */,
+				F45041101DA89F7000A066FB /* Frameworks */,
+				F45041111DA89F7000A066FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45041151DA89F7000A066FB /* PBXTargetDependency */,
+			);
+			name = com.wt.RefeshWatchTests;
+			productName = com.wt.RefeshWatchTests;
+			productReference = F45041131DA89F7000A066FB /* com.wt.RefeshWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F450411D1DA89F7000A066FB /* com.wt.RefeshWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F450412D1DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatchUITests" */;
+			buildPhases = (
+				F450411A1DA89F7000A066FB /* Sources */,
+				F450411B1DA89F7000A066FB /* Frameworks */,
+				F450411C1DA89F7000A066FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45041201DA89F7000A066FB /* PBXTargetDependency */,
+			);
+			name = com.wt.RefeshWatchUITests;
+			productName = com.wt.RefeshWatchUITests;
+			productReference = F450411E1DA89F7000A066FB /* com.wt.RefeshWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45040F21DA89F6F00A066FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "cdyjy-cdwutao3";
+				TargetAttributes = {
+					F45040F91DA89F6F00A066FB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F45041121DA89F7000A066FB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45040F91DA89F6F00A066FB;
+					};
+					F450411D1DA89F7000A066FB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F45040F91DA89F6F00A066FB;
+					};
+				};
+			};
+			buildConfigurationList = F45040F51DA89F6F00A066FB /* Build configuration list for PBXProject "com.wt.RefeshWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45040F11DA89F6F00A066FB;
+			productRefGroup = F45040FB1DA89F6F00A066FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45040F91DA89F6F00A066FB /* com.wt.RefeshWatch */,
+				F45041121DA89F7000A066FB /* com.wt.RefeshWatchTests */,
+				F450411D1DA89F7000A066FB /* com.wt.RefeshWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45040F81DA89F6F00A066FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450410D1DA89F6F00A066FB /* LaunchScreen.storyboard in Resources */,
+				F450410A1DA89F6F00A066FB /* Assets.xcassets in Resources */,
+				F45041081DA89F6F00A066FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45041111DA89F7000A066FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450411C1DA89F7000A066FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45040F61DA89F6F00A066FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45041051DA89F6F00A066FB /* ViewController.m in Sources */,
+				F45041021DA89F6F00A066FB /* AppDelegate.m in Sources */,
+				F45041361DA89FDA00A066FB /* DragLabel.m in Sources */,
+				F45040FF1DA89F6F00A066FB /* main.m in Sources */,
+				F45041351DA89FDA00A066FB /* RefreshRate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450410F1DA89F7000A066FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45041181DA89F7000A066FB /* com_wt_RefeshWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450411A1DA89F7000A066FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45041231DA89F7000A066FB /* com_wt_RefeshWatchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45041151DA89F7000A066FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45040F91DA89F6F00A066FB /* com.wt.RefeshWatch */;
+			targetProxy = F45041141DA89F7000A066FB /* PBXContainerItemProxy */;
+		};
+		F45041201DA89F7000A066FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45040F91DA89F6F00A066FB /* com.wt.RefeshWatch */;
+			targetProxy = F450411F1DA89F7000A066FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45041061DA89F6F00A066FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45041071DA89F6F00A066FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F450410B1DA89F6F00A066FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F450410C1DA89F6F00A066FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45041251DA89F7000A066FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F45041261DA89F7000A066FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45041281DA89F7000A066FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = com.wt.RefeshWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F45041291DA89F7000A066FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = com.wt.RefeshWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F450412B1DA89F7000A066FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.wt.RefeshWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.wt.RefeshWatch.app/com.wt.RefeshWatch";
+			};
+			name = Debug;
+		};
+		F450412C1DA89F7000A066FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = com.wt.RefeshWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/com.wt.RefeshWatch.app/com.wt.RefeshWatch";
+			};
+			name = Release;
+		};
+		F450412E1DA89F7000A066FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.wt.RefeshWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.wt.RefeshWatch;
+			};
+			name = Debug;
+		};
+		F450412F1DA89F7000A066FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = com.wt.RefeshWatchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.com-wt-RefeshWatchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = com.wt.RefeshWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45040F51DA89F6F00A066FB /* Build configuration list for PBXProject "com.wt.RefeshWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45041251DA89F7000A066FB /* Debug */,
+				F45041261DA89F7000A066FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45041271DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45041281DA89F7000A066FB /* Debug */,
+				F45041291DA89F7000A066FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F450412A1DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450412B1DA89F7000A066FB /* Debug */,
+				F450412C1DA89F7000A066FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F450412D1DA89F7000A066FB /* Build configuration list for PBXNativeTarget "com.wt.RefeshWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450412E1DA89F7000A066FB /* Debug */,
+				F450412F1DA89F7000A066FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45040F21DA89F6F00A066FB /* Project object */;
+}
