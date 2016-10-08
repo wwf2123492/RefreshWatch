@@ -2,8 +2,6 @@
 //  ViewController.m
 //  com.wt.RefeshWatch
 //
-//  Created by cdyjy-cdwutao3 on 2016/10/8.
-//  Copyright © 2016年 cdyjy-cdwutao3. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -28,13 +26,27 @@
     isShow = NO;
 }
 -(void)sleepAction{
-    __weak ViewController* weakSelf = self;
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        
-        sleep(1);
-        if(isShow){
-            
-                [weakSelf sleepAction];
+//    __weak ViewController* weakSelf = self;
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//
+//        for(int i = 0;i< 100000;i++){
+//            for(int j = 0;j< 10000;j++){
+//        }
+//        }
+////        sleep(1);
+//        if(isShow){
+//            
+//                [weakSelf sleepAction];
+//        }
+//    });
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        while (1 && isShow) {
+            for(int i = 0;i< 1000000;i++){
+                for(int j = 0;j< 10000;j++){
+                }
+            }
+
         }
     });
 }
